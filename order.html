@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/styles/order.css">
+    <title>20063241d_Drink Ordering Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Drink Ordering Form</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li class="currentPage"><a href="./order.html">Order</a></li>
+            <li><a href=#>Menu</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="#" method="post">
+            <div class="name_input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="enter your name" required>
+            </div>
+            <div class="drink_select">
+                <label for="drink">Drink:</label>
+                <select id="drink" name="drink">
+                    <option value="Bubble_Milktea">Bubble Milktea</option>
+                    <option value="Iced_Latte">Iced Latte</option>
+                    <option value="Pineapple_Juice">Pineapple Juice</option>
+                </select>
+            </div>
+            <div class="size_select">
+                <label for="size">Size:</label>
+                <input type="radio" name="size" id="small" value="small">
+                <label for="small">small</label>
+                <input type="radio" name="size" id="medium" value="medium">
+                <label for="medium">medium</label>
+                <input type="radio" name="size" id="large" value="large">
+                <label for="large">large</label>
+            </div>
+            <div class="submission">
+                <input type="submit" value="Place Order">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        20063241D CHAN Sze Man - EIE4432 Lab 1 Project
+    </footer>
+
+</body>
+
+</html>
